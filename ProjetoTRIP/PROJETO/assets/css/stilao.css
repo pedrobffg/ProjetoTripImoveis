@@ -1,0 +1,547 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 17px;
+    overflow-x: hidden;
+}
+
+header{
+    color: white;
+    height: 100px;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    max-width: 1140px;
+    height: 100px;
+    display: flex;  
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.logoimg{
+    height: 100px;
+    width: 100px;
+}
+.menu{
+flex: 1;
+display: flex;
+justify-content: flex-end;
+padding: 0;
+    margin: 0;
+}
+.menu ul,menu li{
+    list-style: none;
+}
+.menu ul{
+display: flex;
+}
+.menu li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom:5px solid black ;
+}
+.menu li a:hover{
+    border-bottom: 5px solid #b28756;
+    color: gray;
+}
+.menu
+.active{
+    border-bottom: 5px solid #b28756;
+}   
+
+.card-footer{
+    color: #7931de;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/PROJETO/assets/img/imagens/banner.avif);
+background-repeat: no-repeat;
+background-size: cover;
+    
+}
+
+
+.container{
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-content: center;
+
+
+
+    
+}
+
+.card{
+    width: 300px;
+    height: 370px;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0,0 , 0.5);
+    display: inline grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+
+}     
+
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #7931de;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #7931de;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: rgb(255, 168, 82);
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.card-header h3 {
+    color: white;
+    font-size: xx-large;
+}
+
+.casa1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.container2{
+    width:100vw;
+    height: 50vh;
+}
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/PROJETO/assets/img/imagens/banner.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cardAnuncio{
+    width: 30%;
+    height: 50vh;
+    background-color: rgba(0, 0,0 , 0.5);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cardAnuncio h2{
+    color: azure;
+}
+
+.butao1{
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255, 168, 82);    
+    width: 150px;
+    border-radius: 15px;
+}
+
+.placeAnuncio{
+    color: black;
+    box-shadow: 25px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+  }
+  
+  .contairner{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+   
+  .nav-container, .navbar, .login-cadastro, .bx-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nav-container{
+    background-color: black;
+    height: 3.5em;
+    justify-content: space-between;
+    padding: 15px 2%;
+  }
+  
+  .image-header{
+    width: 8em;
+  }
+  
+  .navbar a{
+    color: white;
+    padding: 20px;
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .logo .bx{
+    font-size: 1.4em;
+    color: #fff;
+  }
+  
+  .bx-home{
+    color: #fff;
+  }
+  
+  .btn{
+    padding: 8px 22px;
+    border-radius: 5rem;
+    width: 100px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+ 
+
+main{
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    border-radius: 1rem;
+}
+  #title{
+    position: relative;
+    text-align: center;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .baner-anuncio1{
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .casa1{
+    display: flex;
+    position: relative;
+    width: 85vw;
+    height: 26vh;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    background-color: rgba(0, 0,0 , 0.5);
+  }
+
+  .casa1:hover{
+    transform: scale(1.03);
+    transition-delay: 200ms;
+    border-radius: 0.5rem;
+  }
+  .casa1 img{
+    width: 15rem;
+    border-radius: 0.5rem;
+  }
+  .textos{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .valor{
+    display: flex;
+    justify-content: end;
+  }
+
+  .casa2{
+    display: flex;
+    position: relative;
+    width: 85vw;
+    height: 26vh;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    background-color:rgba(0, 0,0 , 0.5);
+  }
+
+  .casa2:hover{
+    transform: scale(1.03);
+    transition-delay: 200ms;
+    border-radius: 0.5rem;
+  }
+  .casa2 img{
+    width: 15rem;
+    border-radius: 0.5rem;
+  }
+
+  .textos{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    padding-left: 1.2rem;
+  }
+
+  .baner-anuncio2{
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .baner-anuncio3{
+    display: flex;
+  
+    margin: auto;
+    width: 90vw;
+    height: 30vh;
+  } 
+  
+  /* Style footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 1rem;
+    background-color: #000;
+    color: #fff;
+  }
+
+
+
+/*Footer padrao
+  .footer{
+    display:block;
+    position:static;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+  }
+  
+  .icons{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    bottom: 50%;
+  }
+  
+  .bx{
+    padding-left: 20px;
+  }
+  .bxl-whatsapp{
+    font-size: 30px;
+    color: green;
+  }
+  .bxl-instagram{
+    font-size: 30px;
+    color: rgb(188, 42, 141);
+  }
+  .bx-envelope{
+    font-size: 30px;
+    color: white;
+  }
+  
+  #copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-style: italic;
+    padding: 10px 0px 10px 0px;
+    background-color: #000;
+  }
+  */
+
+
+
+  footer {
+    background-color:#000;
+    padding:20px;
+}
+.footer--area {
+    max-width:1140px;
+    margin:auto;
+    color:#FFF;
+    display:flex;
+}
+.footer--item {
+    flex:1;
+}
+.footer-social {
+    display:flex;
+}
+.footer-social a {
+    display:block;
+    width:25px;
+    height:25px;
+    background-color:#333;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:13px;
+    margin-right:10px;
+}
+.bxl-twitter{
+    color: #FFF;
+}
+
+
+.bxl-linkedin-square{
+color: #FFF;
+}
+
+.bxl-google-plus-circle{
+    color: #FFF;
+}
+
+.bxl-facebook-circle{
+    color: #FFF;
+}
+
+.bxl-instagram{
+    color: #FFF;
+}
+.footer-social a:hover {
+    background-color:#B28756;
+}
+.footer-social img {
+    height:10px;
+}
+.footer--item.area2 {
+    color:#999;
+    line-height:20px;
+    font-size:13px;
+    padding:0 10px 10px 10px;
+}
+.footer--item.area3 form {
+    background-color:#333;
+    text-align:center;
+    padding:30px;
+}
+.footer--item.area3 input {
+    width:100%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
+    outline:0;
+    color:#FFF;
+    font-size:14px;
+    text-align:center;
+}
+
+.button{
+    border-radius: 12px;
+    background-color: #dc831f;
+    color: #FFF;
+}
